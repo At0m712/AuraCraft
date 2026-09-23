@@ -29,7 +29,7 @@ public class AuraCraftClient implements ClientModInitializer {
                 }
 
                 // Déclenche immédiatement la mise à jour du Recipe Book
-                if (context.client().screen instanceof CraftingScreen craftingScreen) {
+                if (context.client().gui != null && context.client().gui.screen() instanceof CraftingScreen craftingScreen) {
                     refreshRecipeBook(craftingScreen);
                 }
             });
