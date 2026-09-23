@@ -1,0 +1,14 @@
+{
+  "auracraft.gui.chests_count": "%s chests",
+  "auracraft.gui.chest_count_one": "1 chest",
+  "auracraft.gui.no_chests": "0 chests",
+  "auracraft.tooltip.craftable_via_chests": "Craftable via linked containers",
+  "auracraft.tooltip.title": "AuraCraft (Linked Containers)",
+  "auracraft.tooltip.connected": "%s connected container(s)",
+  "auracraft.tooltip.no_containers": "No containers in range (%s blocks)",
+  "auracraft.tooltip.radius": "• Radius: %s blocks",
+  "auracraft.tooltip.priority": "• Priority: %s",
+  "auracraft.priority.player_first": "Player first",
+  "auracraft.priority.containers_first": "Containers first",
+  "auracraft.tooltip.description": "Nearby chests power your crafting from a distance"
+}

@@ -1,0 +1,14 @@
+{
+  "auracraft.gui.chests_count": "%s cofres",
+  "auracraft.gui.chest_count_one": "1 cofre",
+  "auracraft.gui.no_chests": "0 cofres",
+  "auracraft.tooltip.craftable_via_chests": "Fabricable mediante contenedores vinculados",
+  "auracraft.tooltip.title": "AuraCraft (Contenedores vinculados)",
+  "auracraft.tooltip.connected": "%s contenedor(es) conectado(s)",
+  "auracraft.tooltip.no_containers": "Ningún contenedor al alcance (%s bloques)",
+  "auracraft.tooltip.radius": "• Radio: %s bloques",
+  "auracraft.tooltip.priority": "• Prioridad: %s",
+  "auracraft.priority.player_first": "Jugador primero",
+  "auracraft.priority.containers_first": "Contenedores primero",
+  "auracraft.tooltip.description": "Los cofres cercanos alimentan tus crafteos a distancia"
+}

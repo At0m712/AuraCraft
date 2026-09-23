@@ -3,20 +3,22 @@
 	"id": "auracraft",
 	"version": "${version}",
 	"name": "AuraCraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Accédez et fabriquez en toute transparence avec les ressources stockées dans les conteneurs dans un rayon de 20 blocs autour de votre table de craft.",
 	"authors": [
-		"Me!"
+		"AuraCraft Team"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/atom/auracraft"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/auracraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"atom.auracraft.AuraCraft"
+		],
+		"client": [
+			"atom.auracraft.client.AuraCraftClient"
 		],
 		"fabric-datagen": [
 			"atom.auracraft.AuraCraftDataGenerator"

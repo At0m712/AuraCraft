@@ -1,0 +1,14 @@
+{
+  "auracraft.gui.chests_count": "%s coffres",
+  "auracraft.gui.chest_count_one": "1 coffre",
+  "auracraft.gui.no_chests": "0 coffre",
+  "auracraft.tooltip.craftable_via_chests": "Fabricable via conteneurs liés",
+  "auracraft.tooltip.title": "AuraCraft (Conteneurs liés)",
+  "auracraft.tooltip.connected": "%s conteneur(s) connecté(s)",
+  "auracraft.tooltip.no_containers": "Aucun conteneur à portée (%s blocs)",
+  "auracraft.tooltip.radius": "• Rayon : %s blocs",
+  "auracraft.tooltip.priority": "• Priorité : %s",
+  "auracraft.priority.player_first": "Joueur en premier",
+  "auracraft.priority.containers_first": "Conteneurs en premier",
+  "auracraft.tooltip.description": "Les coffres alimentent vos crafts à distance"
+}
