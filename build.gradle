@@ -72,7 +72,7 @@ publishing {
 	}
 	publishMods {
 		file = jar.archiveFile
-		changelog = providers.fileContents(layout.projectDirectory.file("CHANGELOG.md")).asText.get()
+		changelog = providers.fileContents(layout.projectDirectory.file("CHANGELOG.md")).asText.orElse("Initial release of AuraCraft for Minecraft 26.1.")
 		type = STABLE
 		version = project.version
 		modLoaders.add("fabric")
@@ -80,7 +80,7 @@ publishing {
 
 		curseforge {
 			displayName = file.map { it.asFile.name }
-			projectId = project.curseforge_id
+			projectId = (project.findProperty("curseforge_id") ?: "").toString()
 			accessToken = providers.environmentVariable("CURSEFORGE_TOKEN")
 			changelogType = "markdown"
 
@@ -90,13 +90,13 @@ publishing {
 			}
 
 			client = true
-			server = false
+			server = true
 			requires("fabric-api")
 		}
 
 		modrinth {
 			displayName = "${project.name} ${project.version}"
-			projectId = project.modrinth_id
+			projectId = (project.findProperty("modrinth_id") ?: "").toString()
 			accessToken = providers.environmentVariable("MODRINTH_TOKEN")
 
 			minecraftVersionRange {
